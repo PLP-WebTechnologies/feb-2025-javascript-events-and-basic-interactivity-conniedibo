@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+    background: #f9f9f9;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  #hoverBox {
+    width: 200px;
+    height: 100px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gallery img {
+    display: block;
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .tabContent {
+    padding: 1rem;
+    background-color: #eee;
+    margin-top: 1rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    display: block;
+  }
+  
